@@ -1,0 +1,359 @@
+.home .top-bar-icon:hover {
+  fill: #def5ff;
+  cursor: pointer;
+}
+
+#text {
+  margin: 0 25% 0 25%;
+}
+
+#circle-bg-icon {
+  background: #ffead2;
+  padding: 9px 11px;
+  border-radius: 50px;
+}
+
+.aboutImg {
+  max-width: 100%;
+  height: 560px;
+}
+
+#contactus-card {
+  background-color: #2e2e2e !important;
+  border-radius: 10px !important;
+  height: 180px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#form-card {
+  background-color: #2e2e2e !important;
+  border-radius: 10px !important;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #414141;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#form-card h6 {
+  color: white;
+}
+
+#form-card textarea {
+  width: 100%;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: #414141;
+  color: white;
+  border: none;
+  font-size: 14px;
+  margin-top: 10px;
+  resize: none;
+  height: 200px;
+}
+
+.testimonials-seciton {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.589) 0%,
+      rgba(0, 0, 0, 0.698) 100%
+    ),
+    url("../../assets/images/testimonials.jpg");
+  height: 500px;
+  width: 95vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+
+section {
+  padding-top: 100px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: #2e2e2e00 !important;
+  color: white !important;
+}
+
+.accordion-button {
+  border-bottom: 1px solid #4e4e4e93 !important;
+}
+
+.accordion-button:focus {
+  color: white;
+  box-shadow: none;
+  border-bottom: 1px solid var(--theme-orange);
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(0.8);
+}
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+.faq-seciton {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.589) 0%,
+      rgba(0, 0, 0, 0.698) 100%
+    ),
+    url("../../assets/images/circles-bg.png");
+  width: 100%;
+  background-size: cover;
+}
+
+.contact-seciton #buttonfill {
+  padding: 12px 49px !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  #service_btn1 {
+    margin-top: 59px !important;
+  }
+
+  #service_btn2 {
+    margin-top: 182px !important;
+  }
+
+  #service_btn3 {
+    margin-top: 88px !important;
+  }
+
+  #service_btn4 {
+    margin-top: 24px !important;
+  }
+
+  #service_btn5 {
+    margin-top: 93px !important;
+  }
+
+  #service_btn6 {
+    margin-top: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #road-map-section {
+    display: block !important;
+  }
+
+  #road-map-section img {
+    margin-top: 20px;
+    width: 90vw;
+    height: auto;
+  }
+
+  .cards-seciton {
+    padding-top: 20px;
+  }
+
+  .cards-seciton .row {
+    display: block !important;
+  }
+
+  .cards-seciton .row .col-4 {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  #about-data {
+    display: block !important;
+  }
+
+  #about-data img {
+    height: 300px;
+  }
+
+  #about {
+    margin-top: 20px !important;
+  }
+
+  #about-data .col-6 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #AboutUs {
+    padding-top: 40px;
+  }
+
+  #about-icon-holder {
+    display: block;
+  }
+
+  #about-icon-holder .col-2 {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  #about-icon-holder .col-10 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #road-map-section .col-6 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #our-services-section {
+    display: block !important;
+  }
+
+  #our-services-section .col-4 {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+  #our-services-title {
+    margin-top: 10px !important;
+  }
+
+  #our-services-cards {
+    margin-top: 20px !important;
+  }
+
+  #career-section {
+    display: block;
+  }
+
+  #career-section img {
+    height: 250px;
+  }
+
+  #career-section .col-7 {
+    width: 100vw;
+  }
+
+  #career-section .col-5 {
+    width: 100vw;
+    text-align: center;
+  }
+
+  #why-choose-us {
+    display: block !important;
+  }
+
+  #why-choose-us .col-6 {
+    width: 100vw;
+    text-align: center;
+    padding: 0px !important;
+  }
+
+  #why-choose-us .col-6 img {
+    margin-bottom: 30px;
+  }
+
+  #why-choose-us .col-6 .col-11 {
+    width: 95vw;
+  }
+
+  #testimonial-text-holder {
+    margin: 1px !important;
+    padding: 1px !important;
+  }
+
+  #testimonial-text {
+    font-size: 18px !important;
+  }
+
+  #testimonial-title {
+    font-size: 18px;
+    margin-top: 20px !important;
+  }
+
+  #FAQ-buttons {
+    width: 100vw !important;
+  }
+
+  #contact-us-section {
+    display: block !important;
+  }
+
+  #contact-us-section .col-6 {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+
+  #faq {
+    margin-top: 20px;
+  }
+
+  #FAQ {
+    margin-top: 0px !important;
+  }
+
+  #ContactUS {
+    padding-top: 0px !important;
+  }
+
+  #contact-us-inputs {
+    display: block;
+  }
+
+  #contact-us-inputs .col-6 {
+    width: 100vw;
+    margin-bottom: 20px;
+  }
+}

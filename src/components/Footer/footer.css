@@ -1,0 +1,135 @@
+.footer {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.552) 0%,
+      rgba(0, 0, 0, 0.552) 100%
+    ),
+    url("../../assets/images/pattern.jpg");
+}
+.bottom-footer {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.377) 0%,
+    rgba(0, 0, 0, 0.377) 100%
+  );
+}
+
+.footer p {
+  font-size: 14px !important;
+  color: white;
+}
+
+.footer h3 {
+  font-size: 20px !important;
+  margin: 0 !important;
+  color: white !important;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover p {
+  color: white;
+}
+
+.footer .view {
+  color: white;
+}
+
+.footer .view:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.footer .nav-icon:hover {
+  fill: var(--theme-orange);
+}
+
+.footer input {
+  width: 60%;
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+}
+
+.footer .btn {
+  background-color: var(--theme-orange);
+  color: white;
+  font-size: 11px;
+  border-radius: 0 !important;
+}
+
+.footer .btn:hover {
+  background-color: #eb5a00;
+  color: white;
+  font-size: 11px;
+  border-radius: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .footer .top-footer {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    display: block !important;
+  }
+
+  .footer .top-footer .col-3 {
+    text-align: center;
+    width: 90vw !important;
+  }
+
+  .footer .top-footer .col-3 .col-9 {
+    width: 90vw !important;
+  }
+
+  .footer .top-footer .col-3 .d-flex {
+    justify-content: center !important;
+  }
+  .footer .top-footer .col-2 {
+    width: 90vw !important;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .footer .view-map {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .footer .email-sub {
+    margin-top: 50px;
+  }
+
+  .bottom-footer {
+    text-align: center;
+  }
+
+  .bottom-footer .container {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+
+  .bottom-footer .container small {
+    font-size: 0.605em !important;
+  }
+
+  #slogan {
+    width: 95vw;
+  }
+
+  #disc-title {
+    width: 60vw;
+    align-self: center;
+  }
+
+  #disc-section {
+    text-align: center !important;
+  }
+
+  #newsletter p {
+    margin-bottom: 20px;
+  }
+}

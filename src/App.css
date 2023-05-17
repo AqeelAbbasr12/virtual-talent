@@ -1,0 +1,96 @@
+:root {
+  --theme-orange: #f16c19;
+  --theme-grey: #808080;
+
+  --span-blue: rgb(75, 172, 198);
+
+  --light-grey: #f3f3f3;
+
+  --btn-hover: rgb(52, 145, 189);
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 58px;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+p {
+  margin: 0;
+  color: white;
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 38px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h5 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+span {
+  color: var(--theme-orange);
+}
+
+span-blue {
+  color: var(--span-blue);
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px !important;
+  }
+
+  h2 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  h4 {
+    font-size: 22spx;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+
+  h5 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+}

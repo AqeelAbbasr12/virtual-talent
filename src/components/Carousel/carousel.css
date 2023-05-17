@@ -1,0 +1,78 @@
+@import "react-slideshow-image/dist/styles.css";
+
+.sliderImageSection {
+  height: 70vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slider-text {
+  align-items: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  height: 100%;
+}
+
+.slide-container .default-nav {
+  background-color: transparent;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+    saturate(600%) contrast(0.8);
+  padding: 6px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.slide-container .default-nav:hover {
+  background-color: transparent;
+  filter: brightness(0) invert(1);
+}
+
+.slide-container .default-nav:active {
+  background-color: transparent;
+}
+
+.slide-container .default-nav:focus {
+  background-color: transparent;
+}
+
+.slide-container svg {
+  filter: brightness(0) invert(1);
+  width: 17px !important;
+  height: 17px !important;
+}
+
+@media (max-width: 480px) {
+  .slide-container h1 {
+    font-size: 38px !important;
+  }
+
+  .slide-container p {
+    font-size: 12px !important;
+  }
+
+  .slide-container .btn {
+    background-color: var(--Blue-color);
+    border: none;
+    padding: 6px 14px;
+  }
+
+  .slider-text {
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+  }
+
+  .sliderImageSection {
+    height: 500px !important;
+  }
+
+  .SafetyComfort {
+    width: 95vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+}

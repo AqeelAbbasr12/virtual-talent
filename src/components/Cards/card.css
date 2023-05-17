@@ -1,0 +1,48 @@
+.small-card {
+  border: none;
+  padding: 18px 2px;
+  transition: all 0.3s;
+  border-radius: 10px !important;
+  background-color: #2e2e2e !important;
+}
+
+.thumb {
+  transition: all 0.3s;
+}
+
+.small-card h5 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.3s;
+}
+
+.small-card p {
+  font-size: 15px;
+  line-height: 28px;
+  transition: all 0.3s;
+}
+
+.small-card .small-card-icon {
+  transition: all 0.3s;
+}
+
+.small-card:hover {
+  background-color: var(--theme-orange) !important;
+}
+
+.small-card:hover #buttonfill-white {
+  background-color: white;
+  color: var(--theme-orange);
+}
+
+.small-card:hover .thumb {
+  fill: white;
+}
+
+.small-card:hover h5,
+.small-card:hover p,
+.small-card:hover .small-card-icon {
+  color: white;
+  fill: white;
+}

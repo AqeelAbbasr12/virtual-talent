@@ -1,0 +1,20 @@
+#smallTitle {
+  background-color: #ffead2;
+  color: var(--theme-orange);
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #smallTitle {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 6px 14px;
+  }
+}
